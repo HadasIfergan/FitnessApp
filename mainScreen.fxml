@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mainScreenController">
+    <top>
+        <AnchorPane prefHeight="101.0" prefWidth="520.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fx:id="bgImageView" blendMode="SRC_ATOP" fitHeight="424.0" fitWidth="576.0" layoutY="-304.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../Images/bgLOGIN.jpg" />
+                    </image>
+                </ImageView>
+                <Text fx:id="userName" fill="WHITE" layoutX="214.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font name="System Bold" size="29.0" />
+                    </font>
+                </Text>
+            </children></AnchorPane>
+    </top>
+    <bottom>
+        <AnchorPane prefHeight="280.0" prefWidth="520.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="doWorkoutButton" layoutX="112.0" layoutY="21.0" mnemonicParsing="false" onAction="#doWorkoutButtonOnAction" prefHeight="40.0" prefWidth="100.0" text="Do Workout" />
+            <Button fx:id="suggestionsButton" layoutX="294.0" layoutY="21.0" mnemonicParsing="false" onAction="#getSuggestionButtonOnAction" prefHeight="41.0" prefWidth="101.0" text="Get Suggestion" />
+            <Text fx:id="suggestionsText" layoutX="155.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="224.13671875" />
+            <Text fx:id="weightText" layoutX="14.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="233.13671875" />
+            <Text fx:id="heightText" layoutX="14.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="251.13671875" />
+            <Text fx:id="bmiText" layoutX="14.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="251.13671875" />
+            <Button fx:id="updateButton" layoutX="112.0" layoutY="72.0" mnemonicParsing="false" onAction="#updateButtonOnAction" prefHeight="40.0" prefWidth="100.0" text="Update Data" />
+            <Text fx:id="userIDText" layoutX="14.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="99.13671875" />
+            <Text fx:id="userTypeText" layoutX="121.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="99.13671875" />
+         </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>
