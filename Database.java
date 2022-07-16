@@ -102,7 +102,7 @@ public class Database {
         Connection conn = null;
         String url1 = "jdbc:mysql://localhost:3306/db1";
         String user = "root";
-        String passwordd = "Muhammad13";   //replace with your password for mysql server
+        String passwordd = "pas13"; 
         try {
             conn = DriverManager.getConnection(url1, user, passwordd);
         } catch (SQLException throwables) {
@@ -127,7 +127,7 @@ public class Database {
         Connection conn = null;
         String url1 = "jdbc:mysql://localhost:3306/db1";
         String user = "root";
-        String passwordd = "Muhammad13";   //replace with your password for mysql server
+        String passwordd = "pas13";
         int userid=userr.userid;
         try {
             conn = DriverManager.getConnection(url1, user, passwordd);
@@ -162,7 +162,7 @@ public class Database {
         Connection conn = null;
         String url1 = "jdbc:mysql://localhost:3306/db1";
         String userID = "root";
-        String passwordd = "Muhammad13";   //replace with your password for mysql server
+        String passwordd = "pas13";  
         try {
             conn = DriverManager.getConnection(url1, userID, passwordd);
         } catch (SQLException throwables) {
@@ -201,7 +201,7 @@ public class Database {
         Connection conn = null;
         String url1 = "jdbc:mysql://localhost:3306/db1";
         String userID = "root";
-        String passwordd = "Muhammad13";   //replace with your password for mysql server
+        String passwordd = "pas13";  
         try {
             conn = DriverManager.getConnection(url1, userID, passwordd);
         } catch (SQLException throwables) {
