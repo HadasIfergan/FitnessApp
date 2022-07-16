@@ -12,7 +12,7 @@ public class Database {
         Connection conn = null;
         String url1 = "jdbc:mysql://localhost:3306/db1";
         String user = "root";
-        String passwordd = "Muhammad13";   //replace with your password for mysql server
+        String passwordd = "pas13";  
         try {
             conn = DriverManager.getConnection(url1, user, passwordd);
         } catch (SQLException throwables) {
